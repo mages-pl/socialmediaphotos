@@ -1,0 +1,170 @@
+#columns {
+    display: none;
+}
+.socialsharecms h1 { 
+font-size: 33px;
+font-weight: 700;
+}
+.socialsharecms h2 {
+/* Text style for "" */
+font-size: 36px;
+font-weight: 300;
+}
+ 
+.socialsharecms {
+ color: #272728;
+font-weight: 300;
+
+    background-color: #fef4e2;
+    text-align: center;
+    margin-top: -30px;
+    /* background-image:url('../img/Pastel_01_Copy.png'),url('../img/Pastel_01.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+}
+.socialsharecms fieldset {
+    max-width: 525px;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+        padding: 20px;
+        text-align: left;
+    margin: auto;
+}
+.socialsharecms .left_image_inspiration, .socialsharecms .right_image_inspiration {
+    position: absolute;
+        width: 700px;
+    height: 526px;
+        top: 50px;
+    z-index: 1;
+}
+.socialsharecms .left_image_inspiration {
+background-image:url('../img/Pastel_01_Copy.png');
+left: -80px;
+
+}
+.socialsharecms .right_image_inspiration {
+    background-image: url(../img/Pastel_01.png);
+    right: -10px;
+
+}
+.socialsharecms div.checker { 
+        display: inline-block;
+}
+.socialsharecms .button.button-medium { 
+    width: 100%;
+        margin: 15px 0;
+}
+.socialsharecms div.uploader {
+    height: 36px;
+}
+
+.socialsharecms div.uploader span.filename {
+    width: 80%; 
+}
+.socialsharecms div.uploader span.action {
+    background-position: 0 -378px;
+    height: 36px;
+    text-shadow: none !important;
+    padding: 5px 0;
+    color: #000 !important;
+background:#dce0e7 !important;
+    width: 19%;
+}
+.socialsharecms .footer {
+max-width: 525px;
+    margin: 20px auto;
+color: #272728;
+}
+
+.socialsharecms div.uploader span.filename {
+    height:36px;
+    padding: 5px 10px !important;
+}
+.socialsharecms .form-control {
+    padding: 5px 5px;
+    height: 36px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.socialsharecms .page-subheading {
+    margin: 0;
+     border-bottom: 0px;
+         margin-bottom: 25px;
+    position: relative;
+    z-index: 2;
+}
+.socialsharecms .page-heading.bottom-indent {
+    margin-bottom: 5px;
+}
+.socialsharecms h1 {
+    font-size: 33px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.socialsharecms .form-control {
+    font-style: italic;
+    font-weight: 300;
+}
+@media(max-width:767px) {
+.socialsharecms .no-padding { 
+    padding: 0px;
+}
+.socialsharecms fieldset {
+        margin: -15px;
+}
+.socialsharecms h1, .socialsharecms h3 {
+        display: inherit;
+            text-align: left;
+
+}
+}
+
+.login_panel {
+          position: absolute;
+    width: 100%;
+    background: rgba(255,255,255,0.85);
+    left: 0;
+    text-align: center;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+}
+.panel_inside { 
+  justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-flow: column;
+}
+.login_panel .btn { 
+        padding: 4px 12px;
+    text-align: center;
+    width: auto !important;
+    margin: 0 !important;
+}
+.socialsharecms .icon.icon-sign-in { 
+    font-size: 6rem;
+}
+.socialsharecms .icon.icon-image {
+        font-size: 2rem;
+    color: #5c5c5c;
+}
+.socialsharecms .thumbnail.col-md-3 {
+        border: 0;
+    padding: 0;
+}
+.socialsharecms .thumbnail.col-md-3>div {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 33px 20px;
+    margin: 5px;
+    border: 1px solid #eee;
+}
+.socialsharecms .uploaded_photo {
+    background-size: cover;
+    height: 75px;
+}

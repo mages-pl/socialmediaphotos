@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>socialmediaphotos</name>
+	<displayName><![CDATA[Upland Social Media Photos]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Share yours photos product from social media]]></description>
+	<author><![CDATA[Michał Jendraszcyk]]></author>
+	<tab><![CDATA[advertising_marketing]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to delete ?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
